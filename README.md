@@ -11,3 +11,10 @@
 ## Create Django App:
 1. Create Django app: `python3 manage.py startapp appname`
 2. Connect Django app with django project in settings.py file's INSTALLED_APPS Section
+
+## Django Database Migration
+1. Create migration: `python3 manage.py makemigrations`
+2. Apply migration: `python3 manage.py migrate`
+
+## Django create Super User
+1. Create Super User: `python3 manage.py createsuperuser`
