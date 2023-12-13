@@ -3,7 +3,7 @@
   <h1>Contact Please</h1>
   <form method="POST">
     {% csrf_token %}
-    <div class="mb-3">
+    {% comment %} <div class="mb-3">
       <label for="exampleFormControlInput1" class="form-label">Name</label>
       <input
         type="text"
@@ -33,7 +33,8 @@
         rows="3"
         name="content"
       ></textarea>
-    </div>
+    </div> {% endcomment %}
+    {{ form }}
     <button type="Submit">Submit</button>
   </form>
 </div>
